@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hybrid-svg-builder"
+version = "0.1.0"
+description = "Build editable scientific SVG packages from raster figures"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24", "Pillow>=10", "opencv-python-headless>=4.8", "vtracer>=0.6.11", "resvg-py>=0.3"]
+
+[project.optional-dependencies]
+test = ["scikit-image>=0.22"]
+
+[project.scripts]
+hybrid-svg = "hybrid.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["scripts"]
+include = ["hybrid*"]

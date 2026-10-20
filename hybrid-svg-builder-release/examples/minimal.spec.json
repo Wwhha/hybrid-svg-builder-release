@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.0",
+  "canvas": {
+    "width": 800,
+    "height": 450
+  },
+  "source": {
+    "image": "figure.png"
+  },
+  "white_background": true,
+  "layers": [
+    {
+      "id": "01-panel",
+      "elements": [
+        {
+          "id": "reference-panel",
+          "kind": "rect",
+          "bbox": [
+            40,
+            40,
+            420,
+            150
+          ],
+          "rx": 15,
+          "style": {
+            "fill": "#dce8f7",
+            "stroke": "#4f78a5",
+            "stroke_width": 2.5,
+            "dasharray": "10 6"
+          }
+        },
+        {
+          "id": "reference-cube",
+          "kind": "cube",
+          "bbox": [
+            250,
+            110,
+            60,
+            40
+          ],
+          "depth": {
+            "x": 16,
+            "y": 14
+          },
+          "faces": {
+            "front": "#4c86c8",
+            "top": "#79a8d9",
+            "side": "#386fae"
+          }
+        }
+      ]
+    },
+    {
+      "id": "02-links",
+      "elements": [
+        {
+          "id": "input-arrow",
+          "kind": "arrow",
+          "points": [
+            [
+              20,
+              240
+            ],
+            [
+              180,
+              140
+            ]
+          ],
+          "head": 12,
+          "style": {
+            "stroke": "#17191b",
+            "stroke_width": 2.2
+          }
+        }
+      ]
+    }
+  ],
+  "curve_assets": [
+    {
+      "id": "sample-curve",
+      "source_bbox": [
+        520,
+        90,
+        220,
+        180
+      ],
+      "placement": {
+        "x": 520,
+        "y": 90,
+        "scale": 1
+      },
+      "mask": "dark",
+      "tracer": {
+        "color_precision": 5,
+        "layer_difference": 20
+      }
+    }
+  ]
+}

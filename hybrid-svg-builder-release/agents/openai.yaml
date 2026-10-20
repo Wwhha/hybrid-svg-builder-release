@@ -1,0 +1,4 @@
+interface:
+  display_name: "Hybrid SVG Builder"
+  short_description: "Build editable scientific SVG packages from raster figures"
+  default_prompt: "Use $hybrid-svg-builder to rebuild this raster scientific figure as a structured, Illustrator-editable SVG package."

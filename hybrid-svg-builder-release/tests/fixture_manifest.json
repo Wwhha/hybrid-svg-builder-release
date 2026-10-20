@@ -1,0 +1,7 @@
+{
+  "source_fixture": "diesel_framework.jpg",
+  "rights_status": "unverified",
+  "redistribution_allowed": false,
+  "fixture_git_included": false,
+  "note": "User-supplied figure for local integration testing only. It is intentionally excluded from Git until the user confirms redistribution rights."
+}

@@ -1,0 +1,152 @@
+{
+  "schema_version": "1.0",
+  "canvas": {"width": 3072, "height": 1376},
+  "source": {"image": "figure.jpg"},
+  "white_background": true,
+  "layers": [
+    {"id": "01-panel-backgrounds", "elements": [
+      {"id": "input-panel", "kind": "rect", "bbox": [6, 403.5, 490.5, 562.5], "rx": 24, "style": {"fill": "#ffffff", "stroke": "#17191b", "stroke_width": 3.9, "dasharray": "15 9"}},
+      {"id": "reference-panel", "kind": "rect", "bbox": [651, 126, 1248, 390], "rx": 25.5, "style": {"fill": "#dce3f2", "stroke": "#4f78a5", "stroke_width": 3.75, "dasharray": "15 9"}},
+      {"id": "residual-panel", "kind": "polygon", "points": [[642, 705], [1668, 705], [1695, 732], [1695, 777], [2115, 777], [2140.5, 802.5], [2140.5, 1177.5], [2112, 1206], [667.5, 1206], [640.5, 1179], [640.5, 732]], "style": {"fill": "#fff2d2", "stroke": "#b58829", "stroke_width": 3.75, "dasharray": "15 9"}},
+      {"id": "representation-card", "kind": "rect", "bbox": [961.5, 775.5, 334.5, 367.5], "rx": 27, "style": {"fill": "#fbdda7", "stroke": "none", "stroke_width": 0}},
+      {"id": "learner-card", "kind": "rect", "bbox": [1312.5, 775.5, 343.5, 367.5], "rx": 27, "style": {"fill": "#fbdda7", "stroke": "none", "stroke_width": 0}},
+      {"id": "learner-zone", "kind": "rect", "bbox": [1699.5, 792, 201, 246], "rx": 24, "style": {"fill": "#fbdda7", "stroke": "none", "stroke_width": 0}},
+      {"id": "assessment-panel", "kind": "rect", "bbox": [2355, 301.5, 315, 745.5], "rx": 25.5, "style": {"fill": "#d8efeb", "stroke": "#278a8e", "stroke_width": 3.75, "dasharray": "15 9"}},
+      {"id": "control-strip", "kind": "rect", "bbox": [637.5, 1234.5, 2032.5, 141], "rx": 22.5, "style": {"fill": "#e5e5e5", "stroke": "none", "stroke_width": 0}},
+      {"id": "aromatics-strip", "kind": "rect", "bbox": [2716.5, 199.5, 79.5, 462], "rx": 19.5, "style": {"fill": "#afc4e2", "stroke": "none", "stroke_width": 0}},
+      {"id": "aromatics-card", "kind": "rect", "bbox": [2803.5, 199.5, 264, 462], "rx": 19.5, "style": {"fill": "#dae2f2", "stroke": "none", "stroke_width": 0}},
+      {"id": "density-strip", "kind": "rect", "bbox": [2716.5, 684, 79.5, 525], "rx": 19.5, "style": {"fill": "#9dcecd", "stroke": "none", "stroke_width": 0}},
+      {"id": "density-card", "kind": "rect", "bbox": [2803.5, 684, 264, 525], "rx": 19.5, "style": {"fill": "#cfe9e7", "stroke": "none", "stroke_width": 0}}
+    ]},
+    {"id": "02-input-plot-frame", "elements": [
+      {"id": "plot-frame", "kind": "rect", "bbox": [27, 487.5, 448.5, 358.5], "style": {"fill": "#ffffff", "stroke": "#17191b", "stroke_width": 3.3}}
+    ]},
+    {"id": "03-reference-blocks", "elements": [
+      {"id": "representation", "kind": "cube", "bbox": [1050, 336, 72, 67.5], "depth": {"x": 28.5, "y": 27}, "faces": {"front": "#bad3df", "top": "#d4e5eb", "side": "#96b4c5"}},
+      {"id": "feature-set", "kind": "cube", "bbox": [1228.5, 336, 51, 67.5], "depth": {"x": 30, "y": 28.5}, "faces": {"front": "#c8dce5", "top": "#d9e7ed", "side": "#a7bfcb"}},
+      {"id": "learner", "kind": "cube", "bbox": [1380, 336, 73.5, 67.5], "depth": {"x": 27, "y": 28.5}, "faces": {"front": "#b9b7d2", "top": "#d7d5e8", "side": "#9a98b9"}},
+      {"id": "selected-reference", "kind": "cube", "bbox": [1659, 328.5, 103.5, 75], "depth": {"x": 30, "y": 27}, "faces": {"front": "#4c86c8", "top": "#79a8d9", "side": "#386fae"}}
+    ]},
+    {"id": "04-crossfit-grid", "elements": [
+      {"id": "cf-00", "kind": "rect", "bbox": [1852.5, 547.5, 37.5, 39], "style": {"fill": "#c3d3e5", "stroke": "#17191b", "stroke_width": 2.1}},
+      {"id": "cf-01", "kind": "rect", "bbox": [1896, 547.5, 37.5, 39], "style": {"fill": "#5c87b7", "stroke": "#17191b", "stroke_width": 2.1}},
+      {"id": "cf-02", "kind": "rect", "bbox": [1939.5, 547.5, 37.5, 39], "style": {"fill": "#c3d3e5", "stroke": "#17191b", "stroke_width": 2.1}},
+      {"id": "cf-03", "kind": "rect", "bbox": [1983, 547.5, 37.5, 39], "style": {"fill": "#c3d3e5", "stroke": "#17191b", "stroke_width": 2.1}},
+      {"id": "cf-10", "kind": "rect", "bbox": [1852.5, 592.5, 37.5, 39], "style": {"fill": "#c3d3e5", "stroke": "#17191b", "stroke_width": 2.1}},
+      {"id": "cf-11", "kind": "rect", "bbox": [1896, 592.5, 37.5, 39], "style": {"fill": "#c3d3e5", "stroke": "#17191b", "stroke_width": 2.1}},
+      {"id": "cf-12", "kind": "rect", "bbox": [1939.5, 592.5, 37.5, 39], "style": {"fill": "#5c87b7", "stroke": "#17191b", "stroke_width": 2.1}},
+      {"id": "cf-13", "kind": "rect", "bbox": [1983, 592.5, 37.5, 39], "style": {"fill": "#c3d3e5", "stroke": "#17191b", "stroke_width": 2.1}},
+      {"id": "cf-20", "kind": "rect", "bbox": [1852.5, 637.5, 37.5, 39], "style": {"fill": "#c3d3e5", "stroke": "#17191b", "stroke_width": 2.1}},
+      {"id": "cf-21", "kind": "rect", "bbox": [1896, 637.5, 37.5, 39], "style": {"fill": "#c3d3e5", "stroke": "#17191b", "stroke_width": 2.1}},
+      {"id": "cf-22", "kind": "rect", "bbox": [1939.5, 637.5, 37.5, 39], "style": {"fill": "#c3d3e5", "stroke": "#17191b", "stroke_width": 2.1}},
+      {"id": "cf-23", "kind": "rect", "bbox": [1983, 637.5, 37.5, 39], "style": {"fill": "#5c87b7", "stroke": "#17191b", "stroke_width": 2.1}}
+    ]},
+    {"id": "05-candidate-feature-slabs", "elements": [
+      {"id": "input-slab-1", "kind": "cube", "bbox": [900, 799.5, 12, 52.5], "depth": {"x": 15, "y": 16.5}, "faces": {"front": "#6492c8", "top": "#a6c1dc", "side": "#3f6594"}},
+      {"id": "input-slab-2", "kind": "cube", "bbox": [900, 883.5, 12, 52.5], "depth": {"x": 15, "y": 16.5}, "faces": {"front": "#efc58b", "top": "#ffe1b0", "side": "#c09a65"}},
+      {"id": "input-slab-3", "kind": "cube", "bbox": [900, 961.5, 12, 52.5], "depth": {"x": 15, "y": 16.5}, "faces": {"front": "#efc58b", "top": "#ffe1b0", "side": "#c09a65"}},
+      {"id": "input-slab-4", "kind": "cube", "bbox": [903, 1123.5, 12, 52.5], "depth": {"x": 15, "y": 16.5}, "faces": {"front": "#efc58b", "top": "#ffe1b0", "side": "#c09a65"}}
+    ]},
+    {"id": "06-representation-feature-stack", "elements": [
+      {"id": "feature-1", "kind": "cube", "bbox": [1068, 906, 12, 49.5], "depth": {"x": 13.5, "y": 15}, "faces": {"front": "#6794cb", "top": "#d7e3ee", "side": "#47709b"}},
+      {"id": "feature-2", "kind": "cube", "bbox": [1105.5, 913.5, 12, 57], "depth": {"x": 13.5, "y": 15}, "faces": {"front": "#edc88a", "top": "#ffe0a8", "side": "#c5a16b"}},
+      {"id": "feature-3", "kind": "cube", "bbox": [1050, 966, 12, 48], "depth": {"x": 13.5, "y": 15}, "faces": {"front": "#edc88a", "top": "#ffe0a8", "side": "#c5a16b"}},
+      {"id": "feature-4", "kind": "cube", "bbox": [1083, 967.5, 12, 49.5], "depth": {"x": 13.5, "y": 15}, "faces": {"front": "#edc88a", "top": "#ffe0a8", "side": "#c5a16b"}},
+      {"id": "representation-block", "kind": "cube", "bbox": [1117.5, 940.5, 36, 76.5], "depth": {"x": 30, "y": 31.5}, "faces": {"front": "#e3c17b", "top": "#f6dda3", "side": "#bb9c5b"}},
+      {"id": "gaussian-input-block", "kind": "cube", "bbox": [1260, 940.5, 73.5, 55.5], "depth": {"x": 24, "y": 22.5}, "faces": {"front": "#efbd7f", "top": "#f9d29a", "side": "#cf9d62"}}
+    ]},
+    {"id": "07-alternative-learner-blocks", "elements": [
+      {"id": "learner-option-1", "kind": "cube", "bbox": [1438.5, 862.5, 114, 46.5], "depth": {"x": 16.5, "y": 16.5}, "faces": {"front": "#f3c38c", "top": "#ffddb2", "side": "#d6a56c"}},
+      {"id": "learner-option-2", "kind": "cube", "bbox": [1438.5, 949.5, 114, 46.5], "depth": {"x": 16.5, "y": 16.5}, "faces": {"front": "#f3c38c", "top": "#ffddb2", "side": "#d6a56c"}},
+      {"id": "learner-option-3", "kind": "cube", "bbox": [1438.5, 1036.5, 114, 46.5], "depth": {"x": 16.5, "y": 16.5}, "faces": {"front": "#f3c38c", "top": "#ffddb2", "side": "#d6a56c"}}
+    ]},
+    {"id": "08-residual-learner-block", "elements": [
+      {"id": "correction-learner", "kind": "cube", "bbox": [1735.5, 931.5, 112.5, 76.5], "depth": {"x": 30, "y": 28.5}, "faces": {"front": "#e4a52c", "top": "#f2cd6b", "side": "#bb8c24"}}
+    ]},
+    {"id": "09-assessment-icons", "elements": [
+      {"id": "rmse-y-axis", "kind": "line", "points": [[2467.5, 429], [2467.5, 520.5]], "style": {"stroke": "#17191b", "stroke_width": 2.4}},
+      {"id": "rmse-x-axis", "kind": "line", "points": [[2467.5, 520.5], [2562, 520.5]], "style": {"stroke": "#17191b", "stroke_width": 2.4}},
+      {"id": "rmse-bar-1", "kind": "rect", "bbox": [2482.5, 475.5, 25.5, 34.5], "style": {"fill": "#b2c5de", "stroke": "#17191b", "stroke_width": 1.8}},
+      {"id": "rmse-bar-2", "kind": "rect", "bbox": [2521.5, 450, 25.5, 60], "style": {"fill": "#9bcbbd", "stroke": "#17191b", "stroke_width": 1.8}},
+      {"id": "fold-y-axis", "kind": "line", "points": [[2467.5, 591], [2467.5, 682.5]], "style": {"stroke": "#17191b", "stroke_width": 2.4}},
+      {"id": "fold-x-axis", "kind": "line", "points": [[2467.5, 682.5], [2562, 682.5]], "style": {"stroke": "#17191b", "stroke_width": 2.4}},
+      {"id": "fold-1", "kind": "polyline", "points": [[2476.5, 603], [2476.5, 624], [2493, 604.5]], "style": {"stroke": "#17191b", "stroke_width": 2.4}},
+      {"id": "fold-2", "kind": "polyline", "points": [[2508, 630], [2508, 651], [2524.5, 631.5]], "style": {"stroke": "#17191b", "stroke_width": 2.4}},
+      {"id": "fold-3", "kind": "polyline", "points": [[2536.5, 603], [2536.5, 624], [2553, 604.5]], "style": {"stroke": "#17191b", "stroke_width": 2.4}},
+      {"id": "fold-4", "kind": "polyline", "points": [[2476.5, 664.5], [2476.5, 685.5], [2493, 666]], "style": {"stroke": "#17191b", "stroke_width": 2.4}},
+      {"id": "fold-5", "kind": "polyline", "points": [[2536.5, 664.5], [2536.5, 685.5], [2553, 666]], "style": {"stroke": "#17191b", "stroke_width": 2.4}},
+      {"id": "paired-y-axis", "kind": "line", "points": [[2467.5, 756], [2467.5, 847.5]], "style": {"stroke": "#17191b", "stroke_width": 2.4}},
+      {"id": "paired-x-axis", "kind": "line", "points": [[2467.5, 847.5], [2562, 847.5]], "style": {"stroke": "#17191b", "stroke_width": 2.4}},
+      {"id": "paired-interval", "kind": "line", "points": [[2523, 819], [2549, 819]], "style": {"stroke": "#17191b", "stroke_width": 2.7}},
+      {"id": "paired-tick-left", "kind": "line", "points": [[2523, 808.5], [2523, 829.5]], "style": {"stroke": "#17191b", "stroke_width": 2.4}},
+      {"id": "paired-tick-right", "kind": "line", "points": [[2549, 808.5], [2549, 829.5]], "style": {"stroke": "#17191b", "stroke_width": 2.4}},
+      {"id": "paired-point", "kind": "circle", "cx": 2532, "cy": 819, "r": 6.3, "style": {"fill": "#d2eae5", "stroke": "#17191b", "stroke_width": 2.4}}
+    ]},
+    {"id": "10-decision-panels", "elements": [
+      {"id": "aromatics-block", "kind": "rect", "bbox": [2716.5, 199.5, 79.5, 462], "rx": 19.5, "style": {"fill": "#afc4e2", "stroke": "none", "stroke_width": 0}},
+      {"id": "aromatics-outcome", "kind": "rect", "bbox": [2803.5, 199.5, 264, 462], "rx": 19.5, "style": {"fill": "#dae2f2", "stroke": "none", "stroke_width": 0}},
+      {"id": "density-block", "kind": "rect", "bbox": [2716.5, 684, 79.5, 525], "rx": 19.5, "style": {"fill": "#9dcecd", "stroke": "none", "stroke_width": 0}},
+      {"id": "density-outcome", "kind": "rect", "bbox": [2803.5, 684, 264, 525], "rx": 19.5, "style": {"fill": "#cfe9e7", "stroke": "none", "stroke_width": 0}}
+    ]},
+    {"id": "11-control-cube", "elements": [
+      {"id": "removed-reference-window", "kind": "cube", "bbox": [1161, 1270.5, 46.5, 49.5], "depth": {"x": 18, "y": 16.5}, "faces": {"front": "#dedede", "top": "#f3f3f3", "side": "#b9b9b9"}}
+    ]},
+    {"id": "12-main-connectors", "elements": [
+      {"id": "input-to-reference", "kind": "arrow", "points": [[496.5, 537], [646.5, 358.5]], "head": 16.5, "style": {"stroke": "#17191b", "stroke_width": 3.3}},
+      {"id": "input-to-residual", "kind": "arrow", "points": [[496.5, 733.5], [636, 921]], "head": 16.5, "style": {"stroke": "#17191b", "stroke_width": 3.3}},
+      {"id": "representation-to-screen", "kind": "arrow", "points": [[960, 351], [1035, 351]], "head": 16.5, "style": {"stroke": "#17191b", "stroke_width": 3.3}},
+      {"id": "screen-step-1", "kind": "arrow", "points": [[1165.5, 354], [1219.5, 354]], "head": 16.5, "style": {"stroke": "#17191b", "stroke_width": 3.3}},
+      {"id": "screen-step-2", "kind": "arrow", "points": [[1320, 354], [1371, 354]], "head": 16.5, "style": {"stroke": "#17191b", "stroke_width": 3.3}},
+      {"id": "screen-to-selected", "kind": "arrow", "points": [[1510.5, 349.5], [1635, 349.5]], "head": 16.5, "style": {"stroke": "#17191b", "stroke_width": 3.3}},
+      {"id": "reference-prediction", "kind": "arrow", "points": [[1812, 348], [1966.5, 348]], "head": 16.5, "style": {"stroke": "#577fa9", "stroke_width": 4.2}},
+      {"id": "core-to-sum", "kind": "arrow", "points": [[2076, 348], [2203.5, 348]], "head": 16.5, "style": {"stroke": "#577fa9", "stroke_width": 4.2}},
+      {"id": "reference-config-to-crossfit", "kind": "polyline", "points": [[1791, 393], [1939.5, 393], [1939.5, 532.5]], "style": {"stroke": "#577fa9", "stroke_width": 3.9}},
+      {"id": "source-core-comparison-branch", "kind": "polyline", "points": [[2139, 348], [2139, 618], [2031, 618]], "style": {"stroke": "#577fa9", "stroke_width": 3.9}},
+      {"id": "reference-to-assessment", "kind": "polyline", "points": [[1900.5, 202.5], [2512.5, 202.5], [2512.5, 297]], "style": {"stroke": "#65a6aa", "stroke_width": 2.4}},
+      {"id": "target-to-learner", "kind": "arrow", "points": [[1939.5, 733.5], [1939.5, 772.5]], "head": 16.5, "style": {"stroke": "#577fa9", "stroke_width": 4.2}},
+      {"id": "upper-sum-out", "kind": "arrow", "points": [[2242.5, 382.5], [2242.5, 511.5]], "head": 16.5, "style": {"stroke": "#278a8e", "stroke_width": 4.05}},
+      {"id": "final-to-assessment", "kind": "arrow", "points": [[2277, 664.5], [2350.5, 664.5]], "head": 16.5, "style": {"stroke": "#17191b", "stroke_width": 3.6}},
+      {"id": "correction-prediction", "kind": "arrow", "points": [[1885.5, 961.5], [1995, 961.5]], "head": 16.5, "style": {"stroke": "#17191b", "stroke_width": 3.75}},
+      {"id": "weighted-correction", "kind": "polyline", "points": [[2067, 961.5], [2242.5, 961.5], [2242.5, 831]], "style": {"stroke": "#b58829", "stroke_width": 3.9}},
+      {"id": "weight-to-addition", "kind": "arrow", "points": [[2242.5, 727.5], [2242.5, 702]], "head": 16.5, "style": {"stroke": "#b58829", "stroke_width": 3.9}},
+      {"id": "assessment-to-aromatics", "kind": "arrow", "points": [[2689.5, 421.5], [2715, 421.5]], "head": 16.5, "style": {"stroke": "#17191b", "stroke_width": 3.3}},
+      {"id": "assessment-to-density", "kind": "arrow", "points": [[2689.5, 948], [2715, 948]], "head": 16.5, "style": {"stroke": "#17191b", "stroke_width": 3.3}},
+      {"id": "control-sequence", "kind": "arrow", "points": [[1689, 1288.5], [1728, 1288.5]], "head": 16.5, "style": {"stroke": "#17191b", "stroke_width": 2.7}},
+      {"id": "comparison-link-1", "kind": "arrow", "points": [[928.5, 819], [1036.5, 922.5]], "head": 15, "style": {"stroke": "#17191b", "stroke_width": 3}},
+      {"id": "comparison-link-2", "kind": "arrow", "points": [[928.5, 897], [1036.5, 943.5]], "head": 15, "style": {"stroke": "#17191b", "stroke_width": 3}},
+      {"id": "comparison-link-3", "kind": "arrow", "points": [[928.5, 981], [1036.5, 961.5]], "head": 15, "style": {"stroke": "#17191b", "stroke_width": 3}},
+      {"id": "comparison-link-4", "kind": "arrow", "points": [[928.5, 1063.5], [1036.5, 978]], "head": 15, "style": {"stroke": "#17191b", "stroke_width": 3}},
+      {"id": "comparison-link-5", "kind": "arrow", "points": [[931.5, 1128], [1036.5, 999]], "head": 15, "style": {"stroke": "#17191b", "stroke_width": 3}},
+      {"id": "representation-to-gaussian", "kind": "arrow", "points": [[1183.5, 961.5], [1255.5, 961.5]], "head": 15, "style": {"stroke": "#17191b", "stroke_width": 3}},
+      {"id": "gaussian-to-learner-1", "kind": "arrow", "points": [[1357.5, 961.5], [1434, 885]], "head": 15, "style": {"stroke": "#17191b", "stroke_width": 3}},
+      {"id": "gaussian-to-learner-2", "kind": "arrow", "points": [[1357.5, 963], [1434, 963]], "head": 15, "style": {"stroke": "#17191b", "stroke_width": 3}},
+      {"id": "gaussian-to-learner-3", "kind": "arrow", "points": [[1357.5, 969], [1434, 1048.5]], "head": 15, "style": {"stroke": "#17191b", "stroke_width": 3}},
+      {"id": "learner-to-selector-1", "kind": "line", "points": [[1551, 877.5], [1635, 961.5]], "style": {"stroke": "#17191b", "stroke_width": 3}},
+      {"id": "learner-to-selector-2", "kind": "line", "points": [[1551, 961.5], [1635, 961.5]], "style": {"stroke": "#17191b", "stroke_width": 3}},
+      {"id": "learner-to-selector-3", "kind": "line", "points": [[1551, 1048.5], [1635, 961.5]], "style": {"stroke": "#17191b", "stroke_width": 3}},
+      {"id": "configuration-to-learner", "kind": "arrow", "points": [[1635, 961.5], [1725, 961.5]], "head": 16.5, "style": {"stroke": "#17191b", "stroke_width": 3.3}}
+    ]},
+    {"id": "13-addition-nodes", "elements": [
+      {"id": "addition-upper", "kind": "circle", "cx": 2242.5, "cy": 349.5, "r": 31.5, "style": {"fill": "#f2f2f2", "stroke": "#17191b", "stroke_width": 3.3}},
+      {"id": "plus-upper-horizontal", "kind": "line", "points": [[2226, 349.5], [2259, 349.5]], "style": {"stroke": "#17191b", "stroke_width": 3.6}},
+      {"id": "plus-upper-vertical", "kind": "line", "points": [[2242.5, 333], [2242.5, 366]], "style": {"stroke": "#17191b", "stroke_width": 3.6}},
+      {"id": "addition-lower", "kind": "circle", "cx": 2242.5, "cy": 664.5, "r": 31.5, "style": {"fill": "#f2f2f2", "stroke": "#17191b", "stroke_width": 3.3}},
+      {"id": "plus-lower-horizontal", "kind": "line", "points": [[2226, 664.5], [2259, 664.5]], "style": {"stroke": "#17191b", "stroke_width": 3.6}},
+      {"id": "plus-lower-vertical", "kind": "line", "points": [[2242.5, 648], [2242.5, 681]], "style": {"stroke": "#17191b", "stroke_width": 3.6}}
+    ]},
+    {"id": "14-reference-glyph-geometry", "elements": [
+      {"id": "glyph-base", "kind": "line", "points": [[829.5, 310.5], [829.5, 385.5]], "style": {"stroke": "#17191b", "stroke_width": 2.7}},
+      {"id": "glyph-x-axis", "kind": "line", "points": [[829.5, 385.5], [940.5, 385.5]], "style": {"stroke": "#17191b", "stroke_width": 2.7}},
+      {"id": "glyph-fill", "kind": "rect", "bbox": [880.5, 327, 43.5, 58.5], "style": {"fill": "#b5d5b5", "stroke": "#17191b", "stroke_width": 2.25}},
+      {"id": "glyph-tail", "kind": "line", "points": [[760.5, 396], [760.5, 471]], "style": {"stroke": "#17191b", "stroke_width": 2.4}}
+    ]}
+  ],
+  "curve_assets": [
+    {"id": "01-spectral-curves", "source_bbox": [30, 488, 471, 350], "placement": {"x": 30, "y": 488, "scale": 1}, "mask": "color", "tracer": {"filter_speckle": 4, "color_precision": 7, "layer_difference": 12}},
+    {"id": "02-reference-gaussian", "source_bbox": [684, 303, 116, 87], "placement": {"x": 684, "y": 303, "scale": 1}, "mask": "shape", "tracer": {"color_precision": 6, "layer_difference": 16}},
+    {"id": "03-envelope-rise", "source_bbox": [832, 324, 48, 62], "placement": {"x": 832, "y": 324, "scale": 1}, "mask": "shape", "tracer": {"color_precision": 6, "layer_difference": 16}},
+    {"id": "04-overlapping-peaks", "source_bbox": [762, 404, 114, 68], "placement": {"x": 762, "y": 404, "scale": 1}, "mask": "shape", "tracer": {"color_precision": 6, "layer_difference": 16}},
+    {"id": "05-gaussian-input-curve", "source_bbox": [1268, 945, 61, 48], "placement": {"x": 1268, "y": 945, "scale": 1}, "mask": "dark", "tracer": {"filter_speckle": 4, "color_precision": 5, "layer_difference": 18}},
+    {"id": "06-control-peak", "source_bbox": [1167, 1274, 36, 43], "placement": {"x": 1167, "y": 1274, "scale": 1}, "mask": "dark", "tracer": {"filter_speckle": 3, "color_precision": 5, "layer_difference": 18}}
+  ]
+}
